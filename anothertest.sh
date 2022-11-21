@@ -6,4 +6,4 @@ free -m >> process.log
 w >> process.log
 gzip process.log/tmp
 echo complete
-
+Author: Elvis B 
