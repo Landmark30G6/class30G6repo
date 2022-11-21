@@ -1,0 +1,123 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Nov19 ?        00:00:10 /usr/lib/systemd/systemd --switched-root --system --deserialize 21
+root         2     0  0 Nov19 ?        00:00:00 [kthreadd]
+root         3     2  0 Nov19 ?        00:00:00 [rcu_gp]
+root         4     2  0 Nov19 ?        00:00:00 [rcu_par_gp]
+root         6     2  0 Nov19 ?        00:00:00 [kworker/0:0H-ev]
+root         8     2  0 Nov19 ?        00:00:00 [mm_percpu_wq]
+root         9     2  0 Nov19 ?        00:00:00 [rcu_tasks_rude_]
+root        10     2  0 Nov19 ?        00:00:00 [rcu_tasks_trace]
+root        11     2  0 Nov19 ?        00:00:00 [ksoftirqd/0]
+root        12     2  0 Nov19 ?        00:00:00 [rcu_sched]
+root        13     2  0 Nov19 ?        00:00:01 [migration/0]
+root        15     2  0 Nov19 ?        00:00:00 [cpuhp/0]
+root        17     2  0 Nov19 ?        00:00:00 [kdevtmpfs]
+root        18     2  0 Nov19 ?        00:00:00 [netns]
+root        21     2  0 Nov19 ?        00:00:00 [kauditd]
+root       269     2  0 Nov19 ?        00:00:00 [khungtaskd]
+root       270     2  0 Nov19 ?        00:00:00 [oom_reaper]
+root       271     2  0 Nov19 ?        00:00:00 [writeback]
+root       273     2  0 Nov19 ?        00:00:06 [kcompactd0]
+root       274     2  0 Nov19 ?        00:00:00 [ksmd]
+root       275     2  0 Nov19 ?        00:00:00 [khugepaged]
+root       330     2  0 Nov19 ?        00:00:00 [kintegrityd]
+root       332     2  0 Nov19 ?        00:00:00 [kblockd]
+root       333     2  0 Nov19 ?        00:00:00 [blkcg_punt_bio]
+root       685     2  0 Nov19 ?        00:00:00 [xen-balloon]
+root       691     2  0 Nov19 ?        00:00:00 [tpm_dev_wq]
+root       697     2  0 Nov19 ?        00:00:00 [md]
+root       700     2  0 Nov19 ?        00:00:00 [edac-poller]
+root       705     2  0 Nov19 ?        00:00:00 [watchdogd]
+root       803     2  0 Nov19 ?        00:00:01 [kworker/0:1H-kb]
+root       855     2  0 Nov19 ?        00:00:00 [kswapd0]
+root       857     2  0 Nov19 ?        00:00:00 [xfsalloc]
+root       858     2  0 Nov19 ?        00:00:00 [xfs_mru_cache]
+root       861     2  0 Nov19 ?        00:00:00 [kthrotld]
+root       872     2  0 Nov19 ?        00:00:00 [xenbus]
+root       873     2  0 Nov19 ?        00:00:00 [xenwatch]
+root       909     2  0 Nov19 ?        00:00:00 [nvme-wq]
+root       911     2  0 Nov19 ?        00:00:00 [nvme-reset-wq]
+root       913     2  0 Nov19 ?        00:00:00 [nvme-delete-wq]
+root       947     2  0 Nov19 ?        00:00:00 [ipv6_addrconf]
+root       956     2  0 Nov19 ?        00:00:00 [kstrp]
+root       965     2  0 Nov19 ?        00:00:00 [zswap-shrink]
+root       972     2  0 Nov19 ?        00:00:00 [kworker/u31:0]
+root      1652     2  0 Nov19 ?        00:00:00 [ata_sff]
+root      1657     2  0 Nov19 ?        00:00:00 [scsi_eh_0]
+root      1666     2  0 Nov19 ?        00:00:00 [scsi_tmf_0]
+root      1670     2  0 Nov19 ?        00:00:00 [scsi_eh_1]
+root      1671     2  0 Nov19 ?        00:00:00 [scsi_tmf_1]
+root      1682     2  0 Nov19 ?        00:00:00 [xfs-buf/xvda1]
+root      1683     2  0 Nov19 ?        00:00:00 [xfs-conv/xvda1]
+root      1684     2  0 Nov19 ?        00:00:00 [xfs-cil/xvda1]
+root      1685     2  0 Nov19 ?        00:00:00 [xfs-reclaim/xvd]
+root      1686     2  0 Nov19 ?        00:00:00 [xfs-eofblocks/x]
+root      1687     2  0 Nov19 ?        00:00:00 [xfs-log/xvda1]
+root      1688     2  0 Nov19 ?        00:00:59 [xfsaild/xvda1]
+root      1747     1  0 Nov19 ?        00:00:03 /usr/lib/systemd/systemd-journald
+root      1765     1  0 Nov19 ?        00:00:00 /usr/sbin/lvmetad -f
+root      2207     2  0 Nov19 ?        00:00:00 [ena]
+root      2408     1  0 Nov19 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root      2460     2  0 Nov19 ?        00:00:00 [cryptd]
+root      2548     2  0 Nov19 ?        00:00:00 [rpciod]
+root      2549     2  0 Nov19 ?        00:00:00 [xprtiod]
+root      2552     1  0 Nov19 ?        00:00:00 /sbin/auditd
+libstor+  2578     1  0 Nov19 ?        00:00:00 /usr/bin/lsmd -d
+dbus      2584     1  0 Nov19 ?        00:00:05 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+rpc       2591     1  0 Nov19 ?        00:00:00 /sbin/rpcbind -w
+root      2597     1  0 Nov19 ?        00:00:02 /usr/lib/systemd/systemd-logind
+rngd      2599     1  0 Nov19 ?        00:00:00 /sbin/rngd -f --fill-watermark=0 --exclude=jitter
+root      2609     1  0 Nov19 ?        00:00:00 /usr/sbin/gssproxy -D
+chrony    2617     1  0 Nov19 ?        00:00:04 /usr/sbin/chronyd -F 2
+root      2826     1  0 Nov19 ?        00:00:00 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid -H ip-10-0-1-202 eth0
+root      2875     1  0 Nov19 ?        00:00:00 /sbin/dhclient -6 -nw -lf /var/lib/dhclient/dhclient6--eth0.lease -pf /var/run/dhclient6-eth0.pid eth0 -H ip-10-0-1-202
+root      3018     1  0 Nov19 ?        00:00:00 /usr/libexec/postfix/master -w
+postfix   3020  3018  0 Nov19 ?        00:00:00 qmgr -l -t unix -u
+root      3056     1  0 Nov19 ?        00:00:00 /usr/sbin/sshd -D
+root      3058     1  0 Nov19 ?        00:00:13 /usr/sbin/rsyslogd -n
+root      3059     1  0 Nov19 ?        00:00:07 /usr/bin/amazon-ssm-agent
+root      3074     1  0 Nov19 ?        00:00:00 /usr/sbin/crond -n
+root      3078     1  0 Nov19 ?        00:00:00 /usr/sbin/atd -f
+root      3095     1  0 Nov19 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      3096     1  0 Nov19 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200,38400,9600 ttyS0 vt220
+root      3119  3059  0 Nov19 ?        00:00:05 /usr/bin/ssm-agent-worker
+root      3136     1  0 Nov19 ?        00:00:00 /usr/sbin/acpid
+root      5398     1  0 Nov19 ?        00:00:09 /usr/sbin/httpd -DFOREGROUND
+apache    9857  5398  0 Nov20 ?        00:00:18 /usr/sbin/httpd -DFOREGROUND
+apache    9858  5398  0 Nov20 ?        00:00:18 /usr/sbin/httpd -DFOREGROUND
+apache    9859  5398  0 Nov20 ?        00:00:18 /usr/sbin/httpd -DFOREGROUND
+apache    9860  5398  0 Nov20 ?        00:00:20 /usr/sbin/httpd -DFOREGROUND
+apache    9861  5398  0 Nov20 ?        00:00:18 /usr/sbin/httpd -DFOREGROUND
+apache   11243  5398  0 Nov20 ?        00:00:18 /usr/sbin/httpd -DFOREGROUND
+apache   12252  5398  0 Nov20 ?        00:00:16 /usr/sbin/httpd -DFOREGROUND
+root     18893     2  0 09:10 ?        00:00:00 [kworker/u30:1-e]
+root     20242  3056  0 14:38 ?        00:00:00 sshd: ec2-user [priv]
+root     20260  3056  0 14:38 ?        00:00:00 sshd: ec2-user [priv]
+ec2-user 20278 20242  0 14:38 ?        00:00:00 sshd: ec2-user@pts/0
+ec2-user 20311 20260  0 14:38 ?        00:00:00 sshd: ec2-user@notty
+ec2-user 20312 20311  0 14:38 ?        00:00:00 /usr/libexec/openssh/sftp-server
+ec2-user 20321 20278  0 14:38 pts/0    00:00:00 -bash
+root     20351 20321  0 14:39 pts/0    00:00:00 su class30G6
+class30+ 20352 20351  0 14:39 pts/0    00:00:00 bash
+root     21162     2  0 17:49 ?        00:00:00 [kworker/u30:2-x]
+postfix  21571  3018  0 19:32 ?        00:00:00 pickup -l -t unix -u
+root     21817     2  0 20:27 ?        00:00:00 [kworker/0:1-eve]
+root     21840     2  0 20:33 ?        00:00:00 [kworker/0:0-eve]
+root     21914     2  0 20:40 ?        00:00:00 [kworker/0:2-mm_]
+root     21926 20352  0 20:40 pts/0    00:00:00 sudo sh anothertest.sh
+root     21927 21926  0 20:40 pts/0    00:00:00 sh anothertest.sh
+root     21928 21927  0 20:40 pts/0    00:00:00 sudo ps -ef
+root     21929 21928  0 20:40 pts/0    00:00:00 ps -ef
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        474M     0  474M   0% /dev
+tmpfs           483M     0  483M   0% /dev/shm
+tmpfs           483M  444K  483M   1% /run
+tmpfs           483M     0  483M   0% /sys/fs/cgroup
+/dev/xvda1      8.0G  1.8G  6.2G  23% /
+tmpfs            97M     0   97M   0% /run/user/1000
+              total        used        free      shared  buff/cache   available
+Mem:            965         111         554           0         299         709
+Swap:             0           0           0
+ 20:40:53 up 2 days, 16:30,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ec2-user pts/0    pool-71-191-60-2 14:38    5.00s  0.12s  0.05s sshd: ec2-user [priv]
