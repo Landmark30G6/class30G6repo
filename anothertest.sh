@@ -7,4 +7,4 @@ sudo free -m >> process.log
 sudo w >> process.log
 sudo gzip process.log
 sudo echo "Author: Elvis B"
-
+sudo echo "author: noella"
