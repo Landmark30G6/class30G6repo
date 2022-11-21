@@ -1,9 +1,9 @@
 #!/bin/bash
 #the script will be used to check system resources 
-ps -ef > process.log
-df -h >>process.log
-free -m >> process.log
-w >> process.log
-gzip process.log/tmp
-echo complete
-Author: Elvis B 
+sudo ps -ef > process.log
+sudo df -h >>process.log
+sudo free -m >> process.log
+sudo w >> process.log
+sudo gzip process.log/tmp
+sudo echo "Author: Elvis B"
+
