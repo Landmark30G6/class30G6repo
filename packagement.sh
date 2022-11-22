@@ -13,3 +13,4 @@ sudo yum -y >> /tmp/yum.log
 cd /tmp
 sudo gzip yum.log
 }
+pkg
