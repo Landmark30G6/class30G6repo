@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "what do you want to install ?"
-read command 
+read install
+echo command 
+read yum
 sudo yum -y >> /tmp/yum.log
 sudo cat /tmp/yum.log | grep "Nothing to do"
 message="Nothing to do"
