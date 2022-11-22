@@ -19,3 +19,4 @@ usermgt(){
   echo display $username
   sudo lid $username
 }
+usermgt
