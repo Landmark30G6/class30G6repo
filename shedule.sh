@@ -1,6 +1,6 @@
 #!/bin"
 echo "what are your activities this week
-case $1 in/bash
+case $1
      monday)
            echo "I will be doing DevOps review ";;
      Tuesday)
