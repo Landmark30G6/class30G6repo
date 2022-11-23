@@ -5,4 +5,4 @@ df -h >> /tmp/disk.log
 uptime >> /tmp/disk.log
 free -m >> /tmp/disk.log
 }
-
+disk
