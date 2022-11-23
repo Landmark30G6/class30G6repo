@@ -8,3 +8,6 @@ sudo w >> process.log
 sudo gzip process.log
 sudo echo "Author: Elvis B"
 sudo echo "author: noella"
+sudo echo "Author: Adewale"
+echo "Changes made on github"
+## Updated the file by adding my name ishmael
