@@ -8,3 +8,4 @@ sudo w >> process.log
 sudo gzip process.log
 sudo echo "Author: Elvis B"
 sudo echo "author: noella"
+sudo echo "Author: Adewale"
