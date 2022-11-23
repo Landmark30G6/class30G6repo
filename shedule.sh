@@ -12,4 +12,4 @@ case $1 in
      Friday)
            echo "i will just relax and watch movies" ;;
       *)
-           echo "enter an schedule request for the days of the week";;
+           echo "enter an schedule request for the days of the week" ;;
