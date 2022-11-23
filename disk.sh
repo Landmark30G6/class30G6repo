@@ -1,7 +1,8 @@
 disk(){
 #!/bin/bash
 #check system resources & usage 
-df -h >> /tmp/cron.log
-uptime >> /tmp/cron.log
-free -m >> /tmp/cron.log
+df -h >> /tmp/disk.log
+uptime >> /tmp/disk.log
+free -m >> /tmp/disk.log
 }
+
